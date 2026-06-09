@@ -1,0 +1,81 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+ 
+# API keys i secrets
+*.key
+*.pem
+secrets.json
+ 
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+ 
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+ 
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+ 
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+ 
+# Project-specific
+
+output/
+results/
+test_plots/
+*.png
+*.pdf
+ 
+# Data (optional — adjust as needed)
+# data/raw/
+# data/processed/
+ 
+# Temporary
+tmp/
+temp/
+*.tmp
+
+# Doppler recordings
+data/
+recordings/
+audio_exports/
+video_exports/
+
+*.avi
+*.wav
+*.mp3
+*.flac
