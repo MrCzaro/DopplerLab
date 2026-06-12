@@ -1,0 +1,3 @@
+recording_name,calibration_method,n_calibration_points,slope_cm_s_per_px,intercept_cm_s,baseline_y_global,positive_flow_side,r2,max_abs_error_cm_s,calibration_status
+candidate_long_quality_test,manual_three_point_linear_fit,3,-0.21977800811085518,82.56327171364461,376.0,above_baseline,0.9999899369043905,0.07325933603694068,PASS
+candidate_2,manual_three_point_linear_fit,3,-0.21977800811085518,82.56327171364461,376.0,above_baseline,0.9999899369043905,0.07325933603694068,PASS

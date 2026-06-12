@@ -1,0 +1,3 @@
+recording_name,analysis_start_s,analysis_end_s,analysis_duration_s,segment_usable_fraction,n_audio_anchor_beats_total,n_audio_anchor_beats_inside_segment,mean_hr_bpm_inside_segment,std_hr_bpm_inside_segment,selection_rule
+candidate_long_quality_test,0.592,27.269333333333332,26.677333333333333,0.3490092101590846,28,28,71.78565939951599,1.8234278119719753,audio_usable_segment_from_nb02_qc
+candidate_2,0.4053333333333333,34.208,33.80266666666667,0.9881509198628002,32,32,66.34797858321703,3.1564633352441365,audio_usable_segment_from_nb02_qc
