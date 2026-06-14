@@ -1,0 +1,2 @@
+calibration_group,n_points,slope_cm_s_per_px,intercept_cm_s,cm_s_per_px,baseline_y_global_px,baseline_y_roi_px,max_abs_residual_cm_s,mean_abs_residual_cm_s
+standard_20cm_s_scale,3,-0.17543409679653227,65.9047423632306,0.17543409679653227,375.0,145.0,0.11695606453099572,0.07797070968735653

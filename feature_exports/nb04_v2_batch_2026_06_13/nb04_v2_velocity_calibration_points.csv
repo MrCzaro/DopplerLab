@@ -1,0 +1,4 @@
+calibration_group,velocity_cm_s,y_global_px,point_label
+standard_20cm_s_scale,20.0,262.0,+20 cm/s
+standard_20cm_s_scale,0.0,375.0,0 cm/s
+standard_20cm_s_scale,-20.0,490.0,-20 cm/s
