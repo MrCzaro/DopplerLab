@@ -79,3 +79,71 @@ video_exports/
 *.wav
 *.mp3
 *.flac
+
+# ---------------------------------------------------------------------
+# DopplerLab raw / native / video data
+# ---------------------------------------------------------------------
+
+# Raw ultrasound recordings
+ultrasound_recordings/
+data/
+raw_data/
+raw/
+external_data/
+
+# Mindray TE7 native exports
+**/native/
+**/*_native/
+**/batch_*_native/
+**/*.CIN
+**/PW_CinePartition*.bin
+**/BC_CinePartition*.bin
+**/VirtualMachine.bin
+**/VirtualMachine.txt
+**/BackEndSystem.bin
+**/BackEndSystem.txt
+**/BackEndSystemInfo.txt
+**/DcmRegionPara.txt
+**/app.xml
+**/*.uaec
+
+# Linked / exported ultrasound videos
+**/linked_avi/
+**/*.avi
+**/*.mp4
+**/*.mov
+**/*.mkv
+**/*.wmv
+
+# Extracted audio / intermediate media
+audio_exports/
+**/*.wav
+**/*.mp3
+**/*.aac
+**/*.m4a
+
+# Feature exports / generated analysis outputs
+feature_exports/
+results/
+video_exports/
+plots/
+figures/
+reports/
+exports/
+
+# Large binary / array artifacts
+**/*.pkl
+**/*.pickle
+**/*.npy
+**/*.npz
+**/*.h5
+**/*.hdf5
+**/*.parquet
+**/*.feather
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
