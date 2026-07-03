@@ -147,3 +147,7 @@ exports/
 # Python cache
 __pycache__/
 *.pyc
+
+
+# Local Codex / AI collaboration instructions
+AGENTS.md
