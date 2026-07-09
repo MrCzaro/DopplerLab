@@ -1,0 +1,57 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dopplerlab"
+dynamic = ["version"]
+description = "Experimental Doppler ultrasound native and AVI timing/QC research helpers."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "Apache-2.0"}
+authors = [{name = "MrCzaro"}]
+keywords = ["doppler", "ultrasound", "native-files", "avi", "research", "quality-control"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Medical Science Apps.",
+]
+dependencies = [
+    "numpy",
+    "pandas",
+    "scipy",
+    "opencv-python",
+]
+
+[project.optional-dependencies]
+dev = [
+    "nbdev>=3.0.17",
+    "jupyterlab",
+    "ipykernel",
+    "matplotlib",
+    "soundfile",
+    "build",
+]
+
+[project.entry-points.nbdev]
+dopplerlab = "dopplerlab._modidx:d"
+
+[tool.setuptools.dynamic]
+version = {attr = "dopplerlab.__version__"}
+
+[tool.setuptools.packages.find]
+include = ["dopplerlab"]
+
+[tool.nbdev]
+lib_path = "dopplerlab"
+nbs_path = "."
+doc_path = "_docs"
+recursive = false
+tst_flags = "notest"
+clean_ids = true
+clear_all = false
+put_version_in_init = true
+jupyter_hooks = false
+custom_sidebar = false
+branch = "main"
