@@ -130,7 +130,7 @@ plots/
 figures/
 reports/
 exports/
-
+screening_exports/
 # Large binary / array artifacts
 **/*.pkl
 **/*.pickle
